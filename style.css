@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+div {
+    background-color: white;
+    border: 2px solid;
+    position: absolute;
+}
+
+.atama,
+.oshiri {
+    z-index: 1;
+}
+
+.mae_migi,
+.ushiro_migi {
+    z-index: 1;
+    transform: rotate(5deg);
+    width: 15px;
+    height: 90px;
+    top: 280px;
+}
+
+.karada {
+    z-index: 2;
+}
+
+.mae_hidari,
+.ushiro_hidari {
+    z-index: 3;
+    transform: rotate(-5deg);
+    width: 15px;
+    height: 90px;
+    top: 280px;
+}
+
+.sin {
+    z-index: 3;
+}
+
+.kanmuri_1,
+.kanmuri_2,
+.kanmuri_3 {
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+}
+
+
+/*いれもの*/
+
+.iremono {
+    width: 500px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*からだ*/
+
+.karada {
+    width: 200px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*あたま*/
+
+.atama {
+    width: 70px;
+    height: 70px;
+    border-color: transparent transparent black black;
+    transform: rotate(45deg);
+    top: 213px;
+    left: 111px;
+}
+
+/*おしり*/
+
+.oshiri {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    top: 198px;
+    left: 300px;
+}
+
+/*かんむり*/
+
+.sin {
+    border-radius: 50% 0 0 50%;
+    width: 15px;
+    height: 17px;
+    top: 240px;
+    left: 87px;
+}
+
+.kanmuri_1 {
+    border-radius: 50% 0%;
+    top: 225px;
+    left: 106px;
+}
+
+.kanmuri_2 {
+    border-radius: 50% 0%;
+    top: 242px;
+    left: 103px;
+    transform: rotate(45deg);
+}
+
+.kanmuri_3 {
+    border-radius: 0% 50%;
+    top: 260px;
+    left: 106px;
+}
+
+/*まえ-みぎ*/
+
+.mae_migi {
+    left: 150px;
+}
+
+/*まえ-ひだり*/
+
+.mae_hidari {
+    left: 180px;
+}
+
+/*うしろ-みぎ*/
+
+.ushiro_migi {
+    left: 300px;
+}
+
+/*うしろ-ひだり*/
+
+.ushiro_hidari {
+    left: 330px;
+}
